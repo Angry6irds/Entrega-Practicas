@@ -38,6 +38,10 @@ Pues en mis pasatiempos no es que me guste hacer algo en concreto pero si tuvier
  
 ![Imagen](https://img.ifunny.co/images/613821340dadf73776121de2e65f12564bb26a63a59a3d8c31deadb47e996b39_1.jpg)
 
+[PRACTICA_3](https://github.com/Angry6irds/Practica-3.git) AQUI ESTA MI PRACTICA
+![IMAGEN](https://s1.zerochan.net/Dandadan.600.3886798.jpg)
+
+
 
 
 
