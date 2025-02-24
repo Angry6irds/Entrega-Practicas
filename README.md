@@ -4,3 +4,5 @@
 ---
 
 1. [Practica 1](practica-1.md)
+2. [PRACTICA_3](https://github.com/Angry6irds/Practica-3.git) AQUI ESTA MI PRACTICA
+![IMAGEN](https://s1.zerochan.net/Dandadan.600.3886798.jpg)
