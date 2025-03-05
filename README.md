@@ -9,3 +9,14 @@
 3. [Practica_5](Practica_5.md) Listo Practica realizada
 
 ![Imagen](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjatyBUk8De3fURecprd3g97gfv1npPoxlA&s)
+
+[Practica_6_C](Practica_6_Composicion.md) Listo Practica realizada
+---
+[Practica_6_D](Practica_6_Desarrollo.md) Listo Practica realizada
+---
+[Practica_6_Dis](Practica_6_Diseño.md) Listo Practica realizada
+---
+[Practica_6_L](Practica_6_Lenguajes.md) Listo Practica realizada
+---
+[Practica_6_S](Practica_6_Sistemas.md) Listo Practica realizada
+---
