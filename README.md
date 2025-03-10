@@ -20,3 +20,7 @@
 ---
 [Practica_6_S](Practica_6_Sistemas.md) Listo Practica realizada
 ---
+[Practica_7](Practica-7.md) 
+Listo parctica lista
+
+![Imagen](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBM4DlXhuVloh0cDGvhwb1qw-2k3m56XGSXg&s)
