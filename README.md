@@ -20,7 +20,9 @@
 ---
 [Practica_6_S](Practica_6_Sistemas.md) Listo Practica realizada
 ---
-[Practica_7](Practica-7.md) 
-Listo parctica lista
+# [Practica_7](Practica-7.md)  Listo parctica lista
 
 ![Imagen](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBM4DlXhuVloh0cDGvhwb1qw-2k3m56XGSXg&s)
+
+# [Practica_8](Practica-8.md) Listo ejercicio realizado
+![Imagen](https://preview.redd.it/hijfejocczzb1.jpg?auto=webp&s=d9b92a06448cd3dcc10fb218ce37cc924aa5a289)
