@@ -26,3 +26,6 @@
 
 # [Practica_8](Practica-8.md) Listo ejercicio realizado
 ![Imagen](https://preview.redd.it/hijfejocczzb1.jpg?auto=webp&s=d9b92a06448cd3dcc10fb218ce37cc924aa5a289)
+
+ # [Practica_12](video-juego.md) Listo ejercicio realizado
+![Imagen](https://www.redbrick.me/wp-content/uploads/2023/10/dinobanner-1200x400.jpg)
