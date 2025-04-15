@@ -29,3 +29,5 @@
 
  # [Practica_12](video-juego.md) Listo ejercicio realizado
 ![Imagen](https://www.redbrick.me/wp-content/uploads/2023/10/dinobanner-1200x400.jpg)
+# [Practica_13](index.html) Listo ejercicio realizado
+![Imagen](https://www.dafont.com/forum/attach/orig/1/1/1184809.png)
