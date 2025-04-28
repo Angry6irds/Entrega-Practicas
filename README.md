@@ -31,3 +31,5 @@
 ![Imagen](https://www.redbrick.me/wp-content/uploads/2023/10/dinobanner-1200x400.jpg)
 # [Practica_13](https://angry6irds.github.io/Entrega-Practicas/) Listo ejercicio realizado
 ![Imagen](https://www.dafont.com/forum/attach/orig/1/1/1184809.png)
+# [Practica_15](https://angry6irds.github.io/Entrega-Practicas/mi-serie-favorita-v2/) Listo ejercicio realizado
+![Imagen](https://i.pinimg.com/originals/a3/f7/2a/a3f72a89697267bbd5a8a469c5cc1ede.jpg)
