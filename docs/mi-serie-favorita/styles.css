@@ -1,0 +1,99 @@
+html {
+    font-size: 100%;
+  }
+  
+  body {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+
+  :root {
+    --color-texto: #333;
+    --color-fondo: #fff9f9;
+    --color-acento: #cc3333;
+  }
+  
+ 
+  a {
+    color: #cc0000;
+    text-decoration: none;
+  }
+  
+  
+  a:hover {
+    color: #990000;
+  }
+  
+ 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #inicio {
+    background-color: #ffeeee;
+  }
+  
+  #acerca {
+    background-color: #fff0f0;
+  }
+  
+  #personajes {
+    background-color: #ffe6e6;
+  }
+  
+  .personaje {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .personaje img {
+    border-radius: 5px;
+  }
+  
+  .galeria img {
+    width: 200px;
+    margin: 5px;
+    border-radius: 8px;
+  }
+  
+  nav a {
+    font-weight: bold;
+  }
+  
+  section ul li {
+    list-style: square;
+  }
+  
+  footer p {
+    font-style: italic;
+  }
+  
+  header, nav, footer {
+    text-align: center;
+  }
+  
+  nav, footer {
+    background-color: var(--color-acento);
+    color: white;
+    padding: 15px;
+  }
