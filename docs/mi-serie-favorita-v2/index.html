@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="styles.css">
   </head>
 <body>
+<button id="scrollToTop" title="Volver arriba">⬆️</button>
 
 <header>
   <h1>Ranma ½</h1>
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ranma_%C2%BD_2024_Anime_Logo.png">
 </header>
+<div class="top-controls">
+  <button id="menu-toggle">☰ Menú</button>
+  <button id="theme-toggle">🌓 Modo</button>
+</div>
 
-<nav>
+<nav class="fade-in">
   <a href="#inicio">Inicio</a>
   <a href="#acerca">Acerca</a>
   <a href="#personajes">Personajes</a>
@@ -23,7 +28,7 @@
 </nav>
 
 <main>
-  <section id="inicio">
+  <section id="inicio"class="fade-in">
     <h2>¡Ranma ½: Artes marciales, romance y caos!</h2>
     <p>Una comedia llena de transformaciones, combates y enredos amorosos que te hará reír sin parar.</p>
     <img src="https://i.blogs.es/b3d2e1/ranma/1200_800.jpeg" 
@@ -36,7 +41,7 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 allowfullscreen></iframe>
   </section>
 
-  <section id="acerca">
+  <section id="acerca"class="fade-in">
     <h2>Acerca de la serie</h2>
     <ul>
       <li><strong>Año de estreno:</strong> 1989</li>
@@ -50,7 +55,7 @@ allowfullscreen></iframe>
         ¡La convivencia entre ellos desatará toda clase de situaciones caóticas, hilarantes y con muchos combates!</p>
   </section>
 
-  <section id="personajes">
+  <section id="personajes"class="fade-in">
     <h2>Personajes principales</h2>
     <article class="personaje">
       <img src="https://preview.redd.it/b2b5sbci0mh61.png?width=1080&crop=smart&auto=webp&s=57303a1dd04319174af3f4e8a39ec6301181baee" alt="Ranma Saotome">
@@ -85,7 +90,7 @@ allowfullscreen></iframe>
       
   </section>
 
-  <section id="temporadas">
+  <section id="temporadas"class="fade-in">
     <h2>Temporadas</h2>
     <table border="1" cellpadding="10">
       <tr>
@@ -111,7 +116,7 @@ allowfullscreen></iframe>
     </table>
   </section>
 
-  <section id="medios">
+  <section id="medios"class="fade-in">
     <h2>Medios y enlaces</h2>
     <ul>
       <li><a href="https://www.viz.com/ranma-1-2" target="_blank">Sitio oficial (Viz Media)</a></li>
@@ -129,6 +134,35 @@ allowfullscreen></iframe>
 <footer>
   <p>Ranma ½ © Rumiko Takahashi. ¡Gracias por acompañarnos en esta alocada historia de artes marciales y amor!</p>
 </footer>
+<script src="main.js"></script>
+<script>
+  const faders = document.querySelectorAll('.fade-in');
 
+  const appearOptions = {
+    threshold: 0.2,
+    rootMargin: "0px 0px -50px 0px"
+  };
+
+  const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    });
+  }, appearOptions);
+
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+  });
+  const scrollToTopBtn = document.getElementById("scrollToTop");
+
+window.addEventListener("scroll", () => {
+  scrollToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+});
+
+scrollToTopBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+</script>
 </body>
 </html>
